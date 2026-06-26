@@ -1,0 +1,32 @@
+{
+  "name": "kora",
+  "interface": {
+    "displayName": "Kora"
+  },
+  "plugins": [
+    {
+      "name": "kora-authoring",
+      "source": {
+        "source": "local",
+        "path": "./plugins/kora-authoring"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "kora-operations",
+      "source": {
+        "source": "local",
+        "path": "./plugins/kora-operations"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

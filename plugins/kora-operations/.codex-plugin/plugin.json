@@ -1,0 +1,39 @@
+{
+  "name": "kora-operations",
+  "version": "0.9.0-rc3",
+  "description": "Install, authenticate, operate, and update Kora from external agents.",
+  "author": {
+    "name": "RAW Labs",
+    "url": "https://raw-labs.com"
+  },
+  "homepage": "https://kora.raw-labs.com",
+  "repository": "https://github.com/raw-labs/kora-releases",
+  "license": "LicenseRef-Kora",
+  "keywords": [
+    "kora",
+    "cli",
+    "self-host",
+    "operations"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Kora Operations",
+    "shortDescription": "Install, authenticate, operate, and update Kora from external agents.",
+    "longDescription": "Kora operations skills for the Kora CLI and self-managed deployment lifecycle.",
+    "developerName": "RAW Labs",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://kora.raw-labs.com",
+    "privacyPolicyURL": "https://kora.raw-labs.com",
+    "termsOfServiceURL": "https://kora.raw-labs.com",
+    "defaultPrompt": [
+      "Install the Kora CLI.",
+      "Set up a self-managed Kora deployment.",
+      "Update an existing Kora installation."
+    ],
+    "brandColor": "#111827"
+  }
+}
