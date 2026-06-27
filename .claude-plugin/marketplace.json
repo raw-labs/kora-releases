@@ -1,0 +1,22 @@
+{
+  "name": "kora",
+  "owner": {
+    "name": "RAW Labs",
+    "url": "https://raw-labs.com"
+  },
+  "metadata": {
+    "description": "Kora agent plugins for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "kora-authoring",
+      "description": "Build Kora workflows, extensions, onboarding, and product UI guidance.",
+      "source": "./plugins/kora-authoring"
+    },
+    {
+      "name": "kora-operations",
+      "description": "Install, authenticate, operate, and update Kora from external agents.",
+      "source": "./plugins/kora-operations"
+    }
+  ]
+}

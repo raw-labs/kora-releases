@@ -1,0 +1,39 @@
+{
+  "name": "kora-authoring",
+  "version": "0.9.0",
+  "description": "Build Kora workflows, extensions, onboarding, and product UI guidance.",
+  "author": {
+    "name": "RAW Labs",
+    "url": "https://raw-labs.com"
+  },
+  "homepage": "https://kora.raw-labs.com",
+  "repository": "https://github.com/raw-labs/kora-releases",
+  "license": "LicenseRef-Kora",
+  "keywords": [
+    "kora",
+    "authoring",
+    "workflow",
+    "extensions"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Kora Authoring",
+    "shortDescription": "Build Kora workflows, extensions, onboarding, and product UI guidance.",
+    "longDescription": "Kora authoring skills for workflow release source, extension package source, onboarding, and product UI routing.",
+    "developerName": "RAW Labs",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://kora.raw-labs.com",
+    "privacyPolicyURL": "https://kora.raw-labs.com",
+    "termsOfServiceURL": "https://kora.raw-labs.com",
+    "defaultPrompt": [
+      "Create a Kora workflow release source.",
+      "Build a Kora extension package.",
+      "Show the Kora UI route for this task."
+    ],
+    "brandColor": "#111827"
+  }
+}

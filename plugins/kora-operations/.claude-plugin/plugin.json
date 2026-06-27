@@ -1,0 +1,18 @@
+{
+  "name": "kora-operations",
+  "version": "0.9.0",
+  "description": "Install, authenticate, operate, and update Kora from external agents.",
+  "author": {
+    "name": "RAW Labs",
+    "url": "https://raw-labs.com"
+  },
+  "repository": "https://github.com/raw-labs/kora-releases",
+  "license": "LicenseRef-Kora",
+  "keywords": [
+    "kora",
+    "cli",
+    "self-host",
+    "operations"
+  ],
+  "skills": "./skills/"
+}
