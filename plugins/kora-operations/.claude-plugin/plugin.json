@@ -1,6 +1,6 @@
 {
   "name": "kora-operations",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Install, authenticate, operate, and update Kora from external agents.",
   "author": {
     "name": "RAW Labs",

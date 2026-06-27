@@ -114,7 +114,7 @@ Use `decision` for reusable decision logic and gateways for inline routing.
 - id: choose-path
   type: gateway.exclusive
   paths:
-    - condition: $.approved == true
+    - condition: approved == true
       goto: done
     - default: true
       goto: needs-work

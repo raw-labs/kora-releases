@@ -160,7 +160,7 @@ Model expected absence explicitly.
 - id: route-empty
   type: gateway.exclusive
   paths:
-    - condition: $.pullRequests.length == 0
+    - condition: size(pullRequests) == 0
       goto: done
     - default: true
       goto: review
