@@ -73,7 +73,6 @@ apiVersion: kora/v1
 kind: Process
 metadata:
   name: generate-random-number
-  version: 1
   description: Generate a random number
 types:
   EmptyInput:

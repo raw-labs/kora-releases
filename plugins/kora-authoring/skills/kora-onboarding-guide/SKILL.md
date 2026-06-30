@@ -88,7 +88,7 @@ Typical users include:
 - builders who refine workflows and gradually increase automation depth
 
 Kora is a good fit when the workflow matters enough that the team needs to know
-what changed, what ran, who approved, what failed, and which version was live.
+what changed, what ran, who approved, what failed, and which release was live.
 
 ## Adoption Path
 
@@ -225,7 +225,7 @@ Important governance surfaces:
 
 This model helps teams answer governance questions:
 
-- What workflow version was live?
+- What release was live in the environment?
 - Who or what performed the work?
 - Which decision path was taken?
 - What input was available at the time?
